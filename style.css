@@ -1,0 +1,155 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+.underline-custom{
+  text-decoration: underline;
+}
+
+
+.header-custom{
+    background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url(./Media/living.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.button {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    padding: 8px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all .15s ease;
+  }
+  
+  .button::before,
+  .button::after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: calc(50% - 5px);
+    border: 1px solid white;
+    transition: all .15s ease;
+  }
+  
+  .button::before {
+    top: 0;
+    border-bottom-width: 0;
+  }
+  
+  .button::after {
+    bottom: 0;
+    border-top-width: 0;
+  }
+  
+  .button:active,
+  .button:focus {
+    outline: none;
+  }
+  
+
+  
+  .button:active::before {
+    top: 3px;
+  }
+  
+  .button:active::after {
+    bottom: 3px;
+  }
+  
+  .button_lg {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color:  #0f1923;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+  }
+  
+     .img-coll2{
+       
+        background-color: rgb(225, 225, 223);
+        height: 110%;
+      
+    }
+
+
+    .img-custom-2{
+        height: 90%;
+        width: 80%;
+    }
+
+    .img-project{
+      background: linear-gradient(180deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.6) 100%), url(./Media/06_progetti.jpg);
+      
+      background-position: center;
+      height: 80%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    } 
+
+    .stories-custom{
+      background-color: rgb(225, 225, 223);
+    }
+
+    .newsletter-custom{
+      background-color: rgb(71, 78, 75);
+    }
+
+    .footer-custom{
+      background-color: rgb(177, 138, 118);
+    }
+
+    input {
+      display: block;
+      width: 100%;
+      margin: 20px auto;
+      padding: 12px 20px;
+      font-size: 16px;
+      border: none;
+      background: rgba(255, 255, 255, 0.0);
+      border-right: 1px solid rgba(255, 255, 255, 1);
+      color: white
+    }
+    
+    input::placeholder {
+      color: rgba(255, 255, 255, 1);
+    }
+    
+    input:focus {
+      outline: none;
+    }
+
+    .button-up {
+      width: 60px;
+      height: 60px;
+      bottom: 40px;
+      right: 40px;
+      background-color: rgb(195, 191, 185);
+      color: #FFF;
+      border-radius: 50px;
+      text-align: center;
+      font-size: 30px;
+      box-shadow: 2px 2px 3px #999;
+      z-index: 100;
+      border:rgb(195, 191, 185);
+      transition: 0.5s;
+    }
+    
+    .button-up:hover {
+      transform: scale(1.1);
+    }
+    
+  
